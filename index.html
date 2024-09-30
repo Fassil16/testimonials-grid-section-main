@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+
+
+}
+.content{
+    background-color: hsl(210, 46%, 95%);
+    width: auto;;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20px;
+    padding: 150px 100px 150px 100px;
+    box-shadow: 10px 10px 10px hsl(210, 46%, 95%);
+    margin-bottom: 20px;
+ 
+    
+
+}
+
+.subtitle{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.notes{
+  opacity: 75%;;
+}
+.ver-div1{
+ 
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 20px;
+
+}
+.ver-div1-hor1{
+
+
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+}
+    .ver-div1-hor1-ver1{
+      background-color: hsl(263, 55%, 52%);
+      width: 450px;
+      color: white;
+      border-radius: 20px;
+      display: grid;
+      grid-template-rows: auto;
+      row-gap: 10px;
+      padding:20px;
+      box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+    }
+        .profile{
+          
+          width: auto;
+          height: 30px;
+          display: grid;
+          grid-template-columns: auto 1fr;
+          column-gap: 10px;
+          
+        
+        }
+        .image{
+        
+          width:40px;
+          height: 40px;
+          border-radius: 40px;    
+      border: 2px solid rgba(255, 255, 255, 0.5);
+
+        }
+        
+          .profile-info{
+           
+            padding-bottom: 0px;
+          }
+          .profile-name{
+            font-size: 15px;
+            margin:0px 0px 0px 0px ;
+
+            font-weight: bold;
+
+          }
+          .profile-status{
+            margin:-5px 0px 0px 0px ;
+            opacity: 50%;
+          }
+
+    .ver-div1-hor1-ver2{
+      background-color: hsl(217, 19%, 35%);
+      color: white;
+      border-radius: 20px;
+      padding-left: 15px;
+      padding-right: 5px;
+      padding-top: 20px;
+      box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+    }
+.ver-div1-hor2{
+
+
+display:grid;
+grid-template-columns: 1fr 2fr;
+column-gap: 20px;
+}
+    .ver-div1-hor2-ver1{
+      background-color: hsl(0, 0%, 100%);
+      color: rgb(0, 0, 0);
+      border-radius: 20px;
+      padding:20px;
+      padding-top: 20px;
+      box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+      
+    }
+    .ver-div1-hor2-ver2{
+      background-color:  hsl(219, 29%, 14%);
+      color: white;
+      border-radius: 20px;
+      padding-left: 15px;
+      padding-right: 5px;
+      padding-top: 20px;
+      width: 450px;
+      box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+
+    }
+
+.ver-div2{
+background-color: hsl(0, 0%, 100%);
+
+box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+width: 200px;
+     
+      border-radius: 20px;
+      padding-left: 15px;
+      padding-top: 20px;
+      padding-right: 5px;
+   
+      box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+
+
+}
+  </style>
+</head>
+<body>
+
+    <div class="content">
+
+      <div class="ver-div1">
+        <div class="ver-div1-hor1">
+            <div class="ver-div1-hor1-ver1">
+              <div class="profile">
+                <div class="profile-photo"><img class="image" src="images/image-daniel.jpg"></div>
+                <div class="profile-info"> 
+                  <div class="profile-name"><p class="profile-name" >Daniel Chifored<p></div>
+                  <div class="profile-status"><p  class="profile-status">Verified Graduate</p></div>
+                </div>
+                
+              </div>
+              <p class="subtitle">I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+                in the company I joined. I honestly feel I got every penny’s worth.</p>
+                <p class="notes">“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+                  transition and have heard some people who had an amazing experience here. I signed up 
+                   for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+                   The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+                   the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
+                
+            </div>
+          <div class="ver-div1-hor1-ver2">
+            <div class="profile">
+              <div class="profile-photo"><img class="image" src="images/image-jonathan.jpg"></div>
+              <div class="profile-info"> 
+                <div class="profile-name"><p class="profile-name" >Daniel Chifored<p></div>
+                <div class="profile-status"><p  class="profile-status">Verified Graduate</p></div>
+              </div>
+              
+            </div>
+            <p class="subtitle" >The team was very supportive and kept me motivated</p>
+            <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+              for a big company. This was one of the best investments I’ve made in myself. ”
+            </p>
+
+            </div>
+
+        </div>
+        <div class="ver-div1-hor2">
+          <div class="ver-div1-hor2-ver1">
+            <div class="profile">
+              <div class="profile-photo"><img class="image" src="images/image-jeanette.jpg"></div>
+              <div class="profile-info"> 
+                <div class="profile-name"><p class="profile-name" >Daniel Chifored<p></div>
+                <div class="profile-status"><p  class="profile-status">Verified Graduate</p></div>
+              </div>
+              
+            </div>
+            <p> An overall wonderful and rewarding experience</p>
+              <p>  “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+                while doing something I love. ”</p>
+              
+          </div>
+        <div class="ver-div1-hor2-ver2">
+          <div class="profile">
+            <div class="profile-photo"><img class="image" src="images/image-patrick.jpg"></div>
+            <div class="profile-info"> 
+              <div class="profile-name"><p class="profile-name" >Daniel Chifored<p></div>
+              <div class="profile-status"><p  class="profile-status">Verified Graduate</p></div>
+            </div>
+            
+          </div>
+          <p class="subtitle">The team was very supportive and kept me motivated</p>
+          <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+            for a big company. This was one of the best investments I’ve made in myself. ”
+          </p>
+
+          </div>
+        </div>
+        <div></div>
+
+
+
+      </div>
+      <div class="ver-div2">
+        <div class="profile">
+          <div class="profile-photo"><img class="image" src="images/image-kira.jpg"></div>
+          <div class="profile-info"> 
+            <div class="profile-name"><p class="profile-name" >Daniel Chifored<p></div>
+            <div class="profile-status"><p  class="profile-status">Verified Graduate</p></div>
+          </div>
+        </div>
+        <p class="subtitle"> Such a life-changing experience. Highly recommended!</p>
+        <p> “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+          professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+          student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+          did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+          project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+          could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+          experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+          100% recommend! ”</p>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  <!--
+  
+
+  
+
+
+  Jonathan Walters
+  Verified Graduate
+
+  
+
+  
+  Jeanette Harmon
+  Verified Graduate
+
+ 
+
+
+
+  Patrick Abrams
+  Verified Graduate
+
+  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+  learning from their experiences was easy.
+
+  “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+  gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+  junior developer. The standard is above the rest. You will get the personal attention you need from 
+  an incredible community of smart and amazing people. ”
+
+  Kira Whittle
+  Verified Graduate
+
+ 
+
+ 
+  -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Fassil Atnafu</a>.
+  </div>
+</body>
+</html>
